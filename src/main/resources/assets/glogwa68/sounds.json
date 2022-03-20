@@ -1,0 +1,42 @@
+{
+  "enderchicken": {
+    "category": "hostile",
+    "subtitle": "subtitles.enderchicken",
+    "sounds": [
+      {
+        "name": "glogwa68:enderchickensong",
+        "stream": false
+      }
+    ]
+  },
+  "enderchickenmarche": {
+    "category": "master",
+    "subtitle": "subtitles.enderchickenmarche",
+    "sounds": [
+      {
+        "name": "glogwa68:enderchickenmarche",
+        "stream": false
+      }
+    ]
+  },
+  "enderchickenhurt": {
+    "category": "player",
+    "subtitle": "subtitles.enderchickenhurt",
+    "sounds": [
+      {
+        "name": "glogwa68:enderchickenhurt",
+        "stream": false
+      }
+    ]
+  },
+  "enderchickendeath": {
+    "category": "hostile",
+    "subtitle": "subtitles.enderchickendeath",
+    "sounds": [
+      {
+        "name": "glogwa68:enderchickendeath",
+        "stream": false
+      }
+    ]
+  }
+}

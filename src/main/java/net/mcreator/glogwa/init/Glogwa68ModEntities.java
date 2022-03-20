@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.glogwa.entity.EnderChickenEntity;
 import net.mcreator.glogwa.entity.ChefUiChefEntity;
 import net.mcreator.glogwa.Glogwa68Mod;
 
@@ -27,6 +28,9 @@ public class Glogwa68ModEntities {
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ChefUiChefEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<EnderChickenEntity>> ENDER_CHICKEN = register("ender_chicken",
+			EntityType.Builder.<EnderChickenEntity>of(EnderChickenEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EnderChickenEntity::new).fireImmune().sized(4f, 7f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -36,11 +40,13 @@ public class Glogwa68ModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			ChefUiChefEntity.init();
+			EnderChickenEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(CHEF_UI_CHEF.get(), ChefUiChefEntity.createAttributes().build());
+		event.put(ENDER_CHICKEN.get(), EnderChickenEntity.createAttributes().build());
 	}
 }

@@ -17,4 +17,6 @@ public class Glogwa68ModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, Glogwa68Mod.MODID);
 	public static final RegistryObject<Item> CHEF_UI_CHEF = REGISTRY.register("chef_ui_chef_spawn_egg",
 			() -> new ForgeSpawnEggItem(Glogwa68ModEntities.CHEF_UI_CHEF, -1, -1, new Item.Properties().tab(Glogwa68ModTabs.TAB_MODCHEF)));
+	public static final RegistryObject<Item> ENDER_CHICKEN = REGISTRY.register("ender_chicken_spawn_egg",
+			() -> new ForgeSpawnEggItem(Glogwa68ModEntities.ENDER_CHICKEN, -52225, -6710785, new Item.Properties().tab(Glogwa68ModTabs.TAB_MODCHEF)));
 }

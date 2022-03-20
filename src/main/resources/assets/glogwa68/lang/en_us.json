@@ -1,5 +1,11 @@
 {
   "entity.glogwa68.chef_ui_chef": "Chef Ui Chef",
+  "subtitles.enderchicken": "EnderChicken",
   "itemGroup.tabmodchef": "Modchef",
-  "item.glogwa68.chef_ui_chef_spawn_egg": "Chef Ui Chef Spawn Egg"
+  "item.glogwa68.chef_ui_chef_spawn_egg": "Chef Ui Chef Spawn Egg",
+  "subtitles.enderchickendeath": "enderchickendeath",
+  "item.glogwa68.ender_chicken_spawn_egg": "Ender ChickenBoss Spawn Egg",
+  "entity.glogwa68.ender_chicken": "Ender ChickenBoss",
+  "subtitles.enderchickenmarche": "enderchickenmarche",
+  "subtitles.enderchickenhurt": "enderchickenhurt"
 }
