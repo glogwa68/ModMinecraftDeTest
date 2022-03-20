@@ -46,7 +46,6 @@ import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.TextComponent;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.glogwa.procedures.EnderChickenEntityDiesProcedure;
@@ -198,21 +197,6 @@ public class EnderChickenEntity extends PathfinderMob {
 	public void customServerAiStep() {
 		super.customServerAiStep();
 		this.bossInfo.setProgress(this.getHealth() / this.getMaxHealth());
-	}
-
-	public void aiStep() {
-		super.aiStep();
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Entity entity = this;
-		Level world = this.level;
-		for (int l = 0; l < 10; ++l) {
-			double x0 = x + 0.5 + (random.nextFloat() - 0.5) * 0.999999998509884D;
-			double y0 = y + 1.2 + (random.nextFloat() - 0.5) * 0.999999998509884D;
-			double z0 = z + 0.5 + (random.nextFloat() - 0.5) * 0.999999998509884D;
-			world.addParticle(ParticleTypes.EXPLOSION, x0, y0, z0, 0, 0, 0);
-		}
 	}
 
 	public static void init() {

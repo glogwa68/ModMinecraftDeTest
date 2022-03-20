@@ -91,7 +91,7 @@
     "stepSound": {
       "value": "CUSTOM:enderchickenmarche"
     },
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
     },
