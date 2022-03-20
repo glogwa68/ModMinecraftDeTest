@@ -26,6 +26,10 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.glogwa.init.Glogwa68ModTabs;
+import net.mcreator.glogwa.init.Glogwa68ModItems;
+import net.mcreator.glogwa.init.Glogwa68ModEntities;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -40,8 +44,11 @@ public class Glogwa68Mod {
 	private static int messageID = 0;
 
 	public Glogwa68Mod() {
-
+		Glogwa68ModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		Glogwa68ModItems.REGISTRY.register(bus);
+		Glogwa68ModEntities.REGISTRY.register(bus);
 
 	}
 

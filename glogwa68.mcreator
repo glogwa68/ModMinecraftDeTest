@@ -1,9 +1,58 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Modchef",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modchef"
+    },
+    {
+      "name": "ChefUiChefEntityDies",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chef_ui_chef_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChefUiChef",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chef_ui_chef"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "entity.glogwa68.chef_ui_chef": "Chef Ui Chef",
+      "itemGroup.tabmodchef": "Modchef",
+      "item.glogwa68.chef_ui_chef_spawn_egg": "Chef Ui Chef Spawn Egg"
+    }
   },
   "foldersRoot": {
     "name": "~",
