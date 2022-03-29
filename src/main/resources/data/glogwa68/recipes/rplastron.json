@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "glogwa68:toxingot"
+    },
+    "2": {
+      "item": "glogwa68:toxingot"
+    },
+    "3": {
+      "item": "glogwa68:toxingot"
+    },
+    "4": {
+      "item": "glogwa68:toxingot"
+    },
+    "5": {
+      "item": "glogwa68:toxingot"
+    },
+    "6": {
+      "item": "glogwa68:toxingot"
+    },
+    "7": {
+      "item": "glogwa68:toxingot"
+    },
+    "8": {
+      "item": "glogwa68:toxingot"
+    }
+  },
+  "result": {
+    "item": "glogwa68:armuretox_chestplate",
+    "count": 1
+  }
+}

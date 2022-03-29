@@ -1,11 +1,22 @@
 {
   "entity.glogwa68.chef_ui_chef": "Chef Ui Chef",
+  "item.glogwa68.toxingot": "Toxingot",
   "subtitles.enderchicken": "EnderChicken",
-  "itemGroup.tabmodchef": "Modchef",
+  "item.glogwa68.armuretox_boots": "Bottes en Armuretox",
+  "item.glogwa68.armuretox_chestplate": "Plastron de Armuretox",
   "item.glogwa68.chef_ui_chef_spawn_egg": "Chef Ui Chef Spawn Egg",
-  "subtitles.enderchickendeath": "enderchickendeath",
+  "item.glogwa68.hachetox": "Hachetox",
+  "item.glogwa68.armuretox_helmet": "Casque en Armuretox",
   "item.glogwa68.ender_chicken_spawn_egg": "Ender ChickenBoss Spawn Egg",
   "entity.glogwa68.ender_chicken": "Ender ChickenBoss",
   "subtitles.enderchickenmarche": "enderchickenmarche",
-  "subtitles.enderchickenhurt": "enderchickenhurt"
+  "item.glogwa68.pelltox": "Pelltox",
+  "item.glogwa68.armuretox_leggings": "Jambières de Armuretox",
+  "subtitles.enderchickenhurt": "enderchickenhurt",
+  "itemGroup.tabmodchef": "Modchef",
+  "item.glogwa68.piochetox": "Piochetox",
+  "block.glogwa68.mineraitox": "Mineraitox",
+  "item.glogwa68.houetox": "Houetox",
+  "item.glogwa68.epetox": "Epe_tox",
+  "subtitles.enderchickendeath": "enderchickendeath"
 }

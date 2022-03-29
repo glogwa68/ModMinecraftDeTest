@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "glogwa68:blocks/tox_bloc",
+    "up": "glogwa68:blocks/tox_bloc",
+    "north": "glogwa68:blocks/tox_bloc",
+    "east": "glogwa68:blocks/tox_bloc",
+    "south": "glogwa68:blocks/tox_bloc",
+    "west": "glogwa68:blocks/tox_bloc",
+    "particle": "glogwa68:blocks/tox_bloc"
+  }
+}

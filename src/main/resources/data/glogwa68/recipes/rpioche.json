@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "glogwa68:toxingot"
+    },
+    "1": {
+      "item": "glogwa68:toxingot"
+    },
+    "2": {
+      "item": "glogwa68:toxingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "glogwa68:piochetox",
+    "count": 1
+  }
+}

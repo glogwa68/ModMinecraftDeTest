@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "glogwa68:toxingot"
+    },
+    "1": {
+      "item": "glogwa68:toxingot"
+    },
+    "2": {
+      "item": "glogwa68:toxingot"
+    },
+    "3": {
+      "item": "glogwa68:toxingot"
+    },
+    "5": {
+      "item": "glogwa68:toxingot"
+    }
+  },
+  "result": {
+    "item": "glogwa68:armuretox_helmet",
+    "count": 1
+  }
+}

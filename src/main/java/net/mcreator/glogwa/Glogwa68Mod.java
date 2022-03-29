@@ -28,7 +28,9 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.glogwa.init.Glogwa68ModTabs;
 import net.mcreator.glogwa.init.Glogwa68ModItems;
+import net.mcreator.glogwa.init.Glogwa68ModFeatures;
 import net.mcreator.glogwa.init.Glogwa68ModEntities;
+import net.mcreator.glogwa.init.Glogwa68ModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -46,9 +48,11 @@ public class Glogwa68Mod {
 	public Glogwa68Mod() {
 		Glogwa68ModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		Glogwa68ModBlocks.REGISTRY.register(bus);
 		Glogwa68ModItems.REGISTRY.register(bus);
 		Glogwa68ModEntities.REGISTRY.register(bus);
+
+		Glogwa68ModFeatures.REGISTRY.register(bus);
 
 	}
 
