@@ -1,0 +1,46 @@
+{
+  "_fv": 25,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Toxingot"
+      },
+      {
+        "value": "CUSTOM:Toxingot"
+      },
+      {
+        "value": "CUSTOM:Toxingot"
+      },
+      {
+        "value": "CUSTOM:Toxingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Toxingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Armuretox.helmet"
+    },
+    "name": "rcasque",
+    "namespace": "mod"
+  }
+}

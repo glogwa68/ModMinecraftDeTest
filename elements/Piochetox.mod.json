@@ -1,0 +1,27 @@
+{
+  "_fv": 25,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pioche_tox",
+    "customModelName": "Normal",
+    "name": "Piochetox",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Modchef"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 1,
+    "efficiency": 11.0,
+    "attackSpeed": 1.0,
+    "enchantability": 11,
+    "damageVsEntity": 1.0,
+    "usageCount": 499,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
