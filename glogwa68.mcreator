@@ -79,6 +79,28 @@
           }
         ]
       }
+    },
+    {
+      "name": "GlogwaTESTproc",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glogwa_tes_tproc",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ChefTESTproc",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chef_tes_tproc",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -150,5 +172,5 @@
     "modElementsPackage": "net.mcreator.glogwa",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200112711
+  "mcreatorVersion": 202200115515
 }

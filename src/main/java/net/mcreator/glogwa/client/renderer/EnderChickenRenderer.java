@@ -1,3 +1,4 @@
+
 package net.mcreator.glogwa.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;

@@ -124,14 +124,7 @@ public class ChefUiChefEntity extends Monster {
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
-		double x = this.getX();
-		double y = this.getY();
-		double z = this.getZ();
-		Entity sourceentity = source.getEntity();
-		Entity entity = this;
-		Level world = this.level;
-
-		ChefUiChefEntityDiesProcedure.execute(world, x, y, z);
+		ChefUiChefEntityDiesProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override
