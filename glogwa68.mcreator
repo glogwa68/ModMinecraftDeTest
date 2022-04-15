@@ -79,6 +79,186 @@
           }
         ]
       }
+    },
+    {
+      "name": "GlogwaTESTproc",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glogwa_tes_tproc",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "ChefTESTproc",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chef_tes_tproc",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Rbottes",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rbottes"
+    },
+    {
+      "name": "Rpelll",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpelll"
+    },
+    {
+      "name": "RHache",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r_hache"
+    },
+    {
+      "name": "Rpioche",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpioche"
+    },
+    {
+      "name": "Rcasque",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcasque"
+    },
+    {
+      "name": "Mineraitox",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineraitox"
+    },
+    {
+      "name": "Houetox",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "houetox"
+    },
+    {
+      "name": "Repe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "repe"
+    },
+    {
+      "name": "ArmuretoxEvenementDeTickDuCasque",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armuretox_evenement_de_tick_du_casque",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rjambiere",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rjambiere"
+    },
+    {
+      "name": "Pelltox",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pelltox"
+    },
+    {
+      "name": "Piochetox",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piochetox"
+    },
+    {
+      "name": "Epetox",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epetox"
+    },
+    {
+      "name": "Armuretox",
+      "type": "armor",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armuretox",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Hachetox",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hachetox"
+    },
+    {
+      "name": "Rplastron",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rplastron"
+    },
+    {
+      "name": "Toxingot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxingot"
+    },
+    {
+      "name": "Rhoue",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rhoue"
     }
   ],
   "variable_elements": [],
@@ -119,14 +299,25 @@
   "language_map": {
     "en_us": {
       "entity.glogwa68.chef_ui_chef": "Chef Ui Chef",
+      "item.glogwa68.toxingot": "Toxingot",
       "subtitles.enderchicken": "EnderChicken",
-      "itemGroup.tabmodchef": "Modchef",
+      "item.glogwa68.armuretox_boots": "Bottes en Armuretox",
+      "item.glogwa68.armuretox_chestplate": "Plastron de Armuretox",
       "item.glogwa68.chef_ui_chef_spawn_egg": "Chef Ui Chef Spawn Egg",
-      "subtitles.enderchickendeath": "enderchickendeath",
+      "item.glogwa68.hachetox": "Hachetox",
+      "item.glogwa68.armuretox_helmet": "Casque en Armuretox",
       "item.glogwa68.ender_chicken_spawn_egg": "Ender ChickenBoss Spawn Egg",
       "entity.glogwa68.ender_chicken": "Ender ChickenBoss",
       "subtitles.enderchickenmarche": "enderchickenmarche",
-      "subtitles.enderchickenhurt": "enderchickenhurt"
+      "item.glogwa68.pelltox": "Pelltox",
+      "item.glogwa68.armuretox_leggings": "Jambières de Armuretox",
+      "subtitles.enderchickenhurt": "enderchickenhurt",
+      "itemGroup.tabmodchef": "Modchef",
+      "item.glogwa68.piochetox": "Piochetox",
+      "block.glogwa68.mineraitox": "Mineraitox",
+      "item.glogwa68.houetox": "Houetox",
+      "item.glogwa68.epetox": "Epe_tox",
+      "subtitles.enderchickendeath": "enderchickendeath"
     }
   },
   "foldersRoot": {
