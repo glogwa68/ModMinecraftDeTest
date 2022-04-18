@@ -88,7 +88,24 @@
       "locked_code": false,
       "registry_name": "glogwa_tes_tproc",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
       }
     },
     {
@@ -259,6 +276,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "rhoue"
+    },
+    {
+      "name": "ChefGUI",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chef_gui"
     }
   ],
   "variable_elements": [],
@@ -310,7 +335,7 @@
       "entity.glogwa68.ender_chicken": "Ender ChickenBoss",
       "subtitles.enderchickenmarche": "enderchickenmarche",
       "item.glogwa68.pelltox": "Pelltox",
-      "item.glogwa68.armuretox_leggings": "Jambières de Armuretox",
+      "item.glogwa68.armuretox_leggings": "Jambi�res de Armuretox",
       "subtitles.enderchickenhurt": "enderchickenhurt",
       "itemGroup.tabmodchef": "Modchef",
       "item.glogwa68.piochetox": "Piochetox",
@@ -341,5 +366,5 @@
     "modElementsPackage": "net.mcreator.glogwa",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200112711
+  "mcreatorVersion": 202200115515
 }

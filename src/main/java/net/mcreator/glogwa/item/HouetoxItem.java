@@ -1,7 +1,12 @@
 
 package net.mcreator.glogwa.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.HoeItem;
+
+import net.mcreator.glogwa.init.Glogwa68ModTabs;
 
 public class HouetoxItem extends HoeItem {
 	public HouetoxItem() {
@@ -29,11 +34,6 @@ public class HouetoxItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		},
-
-				0, -3f,
-
-				new Item.Properties().tab(Glogwa68ModTabs.TAB_MODCHEF));
+		}, 0, -3f, new Item.Properties().tab(Glogwa68ModTabs.TAB_MODCHEF));
 	}
-
 }

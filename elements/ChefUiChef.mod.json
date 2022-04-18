@@ -56,8 +56,8 @@
     "xpAmount": 0,
     "waterMob": false,
     "flyingMob": true,
-    "guiBoundTo": "<NONE>",
-    "inventorySize": 36,
+    "guiBoundTo": "ChefGUI",
+    "inventorySize": 2,
     "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": true,
@@ -100,6 +100,9 @@
     "particleAmount": 3,
     "whenMobDies": {
       "name": "ChefUiChefEntityDies"
+    },
+    "onMobTickUpdate": {
+      "name": "GlogwaTESTproc"
     },
     "hasAI": true,
     "aiBase": "(none)",

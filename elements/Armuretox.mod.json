@@ -1,5 +1,5 @@
 {
-  "_fv": 25,
+  "_fv": 27,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -19,7 +19,7 @@
     "armorTextureFile": "armure_tox",
     "helmetName": "Casque en Armuretox",
     "bodyName": "Plastron de Armuretox",
-    "leggingsName": "Jambières de Armuretox",
+    "leggingsName": "Jambiï¿½res de Armuretox",
     "bootsName": "Bottes en Armuretox",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
